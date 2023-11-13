@@ -63,7 +63,7 @@ namespace Innorik.Attendance.System.Api.Controllers
                     });
                     while (response != null)
                     {
-                        return StatusCode(200, "Success");
+                        return Ok(response);
                     }
 
                 }
