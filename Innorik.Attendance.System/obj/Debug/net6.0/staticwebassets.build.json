@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "Cgkw4yrfVr+lEjPzs8+jb+FgPPcSBOnrKZam67rvjcQ=",
+  "Source": "Innorik.Attendance.System.Api",
+  "BasePath": "_content/Innorik.Attendance.System.Api",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

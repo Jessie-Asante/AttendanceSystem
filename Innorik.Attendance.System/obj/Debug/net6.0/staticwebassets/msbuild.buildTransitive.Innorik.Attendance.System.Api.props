@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\buildMultiTargeting\Innorik.Attendance.System.Api.props" />
+</Project>
