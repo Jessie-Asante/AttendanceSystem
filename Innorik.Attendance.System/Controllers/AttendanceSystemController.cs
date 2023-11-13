@@ -37,31 +37,16 @@ namespace Innorik.Attendance.System.Api.Controllers
 
         [HttpGet]
         [Route("ValidateDate")]
-        public async Task<IActionResult> CheckDate([FromQuery] DateTime date)
+        public async Task<IActionResult> CheckDate()
         {
-
-            if (ModelState.IsValid)
+                     
+            var response = await _mediator.Send(new isLateResponse
             {
-                try
-                {
-                    var response = await _mediator.Send(new isLateResponse
-                    {
-                        Date = date,
+                Date = DateTime.UtcNow,
 
-                    });
-                    while (response != null)
-                    {
-                        return StatusCode(200, "Success");
-                    }
-                    return BadRequest();
-                }
-                catch (Exception ex)
-                {
-
-                    return BadRequest(ex.Message);
-                }
-            }
-            return BadRequest(StatusCode(404, "Inspect the parameters"));
+            });
+            return Ok(response);                   
+          
         }
 
         [HttpPost]
