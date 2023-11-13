@@ -1,6 +1,9 @@
 ﻿using Innorik.Attendance.System.Application.Command.Query.Request;
 using Innorik.Attendance.System.Infrastructure.Persistence;
+using MediatR;
+using AutoMapper;
 using static Innorik.Attendance.System.Application.Dtos.QueryDto;
+
 
 namespace Innorik.Attendance.System.Application.Command.Query.Handlers
 {
