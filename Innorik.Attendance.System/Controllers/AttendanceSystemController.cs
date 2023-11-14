@@ -27,8 +27,8 @@ namespace Innorik.Attendance.System.Api.Controllers
             var response = await _mediator.Send(new SearchAttendanceRequest
             {
                 Search = search ?? string.Empty,
-                CheckInDate = checkIndate,
-                CheckOutDate= checkOutDate,
+                checkInDate = checkIndate,
+                checkOutDate= checkOutDate,
 
             });
             if (response == null)
