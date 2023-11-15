@@ -1,12 +1,7 @@
-﻿using AutoMapper;
-using Innorik.Attendance.System.Application.Command.Query.Request;
-using Innorik.Attendance.System.Infrastructure.Persistence;
+﻿using Innorik.Attendance.System.Application.Command.Query.Request;
 using MediatR;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+using AutoMapper;
+using Innorik.Attendance.System.Infrastructure.Persistence;
 using static Innorik.Attendance.System.Application.Dtos.QueryDto;
 
 namespace Innorik.Attendance.System.Application.Command.Query.Handlers
