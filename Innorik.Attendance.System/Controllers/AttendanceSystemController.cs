@@ -38,6 +38,25 @@ namespace Innorik.Attendance.System.Api.Controllers
                               
         }
 
+
+        [HttpGet]
+        [Route("today")]
+        public async Task<IActionResult> GetTodaysCheckIns([FromQuery] string? searchText = null)
+        {
+
+            var response = await _mediator.Send(new GetTodaysLoginsRequest
+            {
+                SearchText = searchText ?? string.Empty
+            });
+
+            if (response == null)
+                return BadRequest(StatusCode(404, "No records found"));
+            return Ok(response);
+
+
+        }
+
+
         [HttpGet]
         [Route("ValidateDate")]
         public async Task<IActionResult> CheckDate()
@@ -56,29 +75,54 @@ namespace Innorik.Attendance.System.Api.Controllers
         [Route("CreateCheckIn")]
         public async Task<ActionResult> CheckIn([FromBody] CreateCheckInDto create)
         {
-            if (ModelState.IsValid)
+            try
             {
-                try
-                {
-                 
                     var response = await _mediator.Send(new CreateCheckInRequest
                     {
                         Create = create
                     });
-                    if (response != null)
+
+
+                    while (response != null)
                     {
                         return Ok(response);
                     }
-                    return BadRequest("Failed to get a valid response");
 
-                }
-                catch (Exception ex)
-                {
-
-                    return BadRequest(ex.Message);
-                }
+                
             }
-            return BadRequest("Model state is not valid");
+            catch (Exception ex)
+            {
+
+                return BadRequest(ex.Message);
+            }
+            return BadRequest(StatusCode(404, "Failed"));
+        }
+
+
+        [HttpPut]
+        [Route("CreateCheckOut/{Id}")]
+        public async Task<ActionResult> CheckOut(int Id, [FromBody] CreateCheckoutDto create)
+        {
+            try
+            {
+                var response = await _mediator.Send(new CreateCheckOutRequest
+                { 
+                    Id = Id,
+                    CheckoutRequest = create
+                });
+
+                if(response == null)
+                {
+                    return BadRequest();
+                }
+
+                return Ok(response);
+            }
+            catch (Exception ex)
+            {
+
+                return BadRequest(ex.Message);
+            }
         }
     }
 }
