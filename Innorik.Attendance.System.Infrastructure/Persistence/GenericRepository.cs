@@ -22,6 +22,13 @@ namespace Innorik.Attendance.System.Infrastructure.Persistence
             var result = await _dbContext.Database.SqlQuery<int>(sqlQuery).ToListAsync();
             await _dbContext.SaveChangesAsync();
             return result.FirstOrDefault();
+        } 
+        
+        public async Task<int> Adds(FormattableString sqlQuery)
+        {
+            var result = await _dbContext.Database.ExecuteSqlInterpolatedAsync(sqlQuery);
+            await _dbContext.SaveChangesAsync();
+            return result;
         }
 
         public async Task<IEnumerable<TEntity>> GetAll(FormattableString sqlQuery)

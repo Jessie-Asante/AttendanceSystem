@@ -28,7 +28,7 @@ namespace Innorik.Attendance.System.Application.Command.Commands.Handlers
             var map = _mapper.Map(dto, entity);
             var newImage = Conversion(dto.AtsCheckInPicture);
             FormattableString query = $"[dbo].[spcCreateCheckIn] @atsFirstName = {map.AtsFirstName}, @atsLastName = {map.AtsLastName}, @atsActive = {map.AtsActive}, @atsCheckInPicture = {newImage}, @atsCheckInPictureHeader = {map.AtsCheckInPictureHeader}";
-            var response = await _repository.Add(query);
+            var response = await _repository.Adds(query);
             if (response > 0)
                 return new ApiResponse()
                 {

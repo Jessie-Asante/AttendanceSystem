@@ -3,13 +3,18 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.4.33403.182
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Innorik.Attendance.System.Api", "Innorik.Attendance.System.Api.csproj", "{CA3FED08-001D-4DFC-8A27-DE25714C91B4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Innorik.Attendance.System.Api", "Innorik.Attendance.System.Api.csproj", "{CA3FED08-001D-4DFC-8A27-DE25714C91B4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Innorik.Attendance.System.Application", "..\Innorik.Attendance.System.Application\Innorik.Attendance.System.Application.csproj", "{85AFE806-8511-47FC-8640-99C9E95ABC9D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Innorik.Attendance.System.Application", "..\Innorik.Attendance.System.Application\Innorik.Attendance.System.Application.csproj", "{85AFE806-8511-47FC-8640-99C9E95ABC9D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Innorik.Attendance.System.Domain", "..\Innorik.Attendance.System.Domain\Innorik.Attendance.System.Domain.csproj", "{D7DC58C7-6152-4408-8437-3AD3F9ED1009}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Innorik.Attendance.System.Domain", "..\Innorik.Attendance.System.Domain\Innorik.Attendance.System.Domain.csproj", "{D7DC58C7-6152-4408-8437-3AD3F9ED1009}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Innorik.Attendance.System.Infrastructure", "..\Innorik.Attendance.System.Infrastructure\Innorik.Attendance.System.Infrastructure.csproj", "{973D477F-3BB9-4620-9B18-F082A14CC674}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Innorik.Attendance.System.Infrastructure", "..\Innorik.Attendance.System.Infrastructure\Innorik.Attendance.System.Infrastructure.csproj", "{973D477F-3BB9-4620-9B18-F082A14CC674}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{2D89713F-96ED-4630-BE10-452242595A69}"
+	ProjectSection(SolutionItems) = preProject
+		.gitignore = .gitignore
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

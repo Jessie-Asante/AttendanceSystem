@@ -11,5 +11,7 @@ namespace Innorik.Attendance.System.Application.Command.Query.Request
     public class SearchAttendanceRequest : IRequest<IEnumerable<GetAllCheckInDto>>
     {
         public string? Search { get; set; } = null;
+        public DateTime checkInDate { get; set; } 
+        public DateTime checkOutDate { get; set; } 
     }
 }
