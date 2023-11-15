@@ -1,0 +1,19 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/Innorik.Attendance.System/.vs/Innorik.Attendance.System/DesignTimeBuild/.dtbcache.v2
+/Innorik.Attendance.System/.vs/Innorik.Attendance.System/FileContentIndex/06f7e44f-3153-4220-bf4e-65bd15bc2f30.vsidx
+/Innorik.Attendance.System/.vs/Innorik.Attendance.System/FileContentIndex/088b2dba-e2d4-4209-a8a5-a9ac72d40ea7.vsidx
+/Innorik.Attendance.System/.vs/Innorik.Attendance.System/FileContentIndex/604ac9cc-d157-407e-90fc-2da158342fe8.vsidx
+/Innorik.Attendance.System/.vs/Innorik.Attendance.System/FileContentIndex/7b3d5f46-06d1-41f1-9d50-5aa8a188aa0a.vsidx
+/Innorik.Attendance.System/.vs/Innorik.Attendance.System/FileContentIndex/81f4cf1f-4cfb-401a-a1ce-4b17856eafac.vsidx
+/Innorik.Attendance.System/.vs/Innorik.Attendance.System/FileContentIndex/8c31d426-2ba3-4c0b-a273-0b8f3a7d06b7.vsidx
+/Innorik.Attendance.System/.vs/Innorik.Attendance.System/FileContentIndex/ef58edbc-3e77-46eb-bab7-077210947547.vsidx
+/Innorik.Attendance.System/.vs/Innorik.Attendance.System/FileContentIndex/f82a6bf2-5afb-4652-b2aa-6fa445d934c2.vsidx
+/Innorik.Attendance.System/.vs/Innorik.Attendance.System/FileContentIndex/fe4e33a8-8546-43aa-ab51-90f016c4638a.vsidx
+/Innorik.Attendance.System/.vs/Innorik.Attendance.System/v17/.futdcache.v2
+/Innorik.Attendance.System/.vs/Innorik.Attendance.System/v17/.suo
+/Innorik.Attendance.System/obj/Debug/net6.0/Innorik.Attendance.System.Api.csproj.AssemblyReference.cache
+/Innorik.Attendance.System.Application/obj/Debug/net6.0/Innorik.Attendance.System.Application.csproj.AssemblyReference.cache
+/Innorik.Attendance.System.Infrastructure/obj/Debug/net6.0/Innorik.Attendance.System.Infrastructure.csproj.AssemblyReference.cache
