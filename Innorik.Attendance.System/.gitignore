@@ -1,0 +1,7 @@
+# Compiled files
+bin/
+obj/
+# Visual Studio files
+*.user
+*.suo
+*.sdf
