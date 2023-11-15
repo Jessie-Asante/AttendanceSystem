@@ -1,33 +1,26 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\jessie.asante\\source\\repos\\Innorik.Attendance.System\\Innorik.Attendance.System.Api.csproj": {}
+    "C:\\Users\\ahmed.misbawu\\Desktop\\AttendanceSystem\\Innorik.Attendance.System\\Innorik.Attendance.System.Api.csproj": {}
   },
   "projects": {
-    "C:\\Users\\jessie.asante\\source\\repos\\Innorik.Attendance.System.Application\\Innorik.Attendance.System.Application.csproj": {
+    "C:\\Users\\ahmed.misbawu\\Desktop\\AttendanceSystem\\Innorik.Attendance.System.Application\\Innorik.Attendance.System.Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\jessie.asante\\source\\repos\\Innorik.Attendance.System.Application\\Innorik.Attendance.System.Application.csproj",
+        "projectUniqueName": "C:\\Users\\ahmed.misbawu\\Desktop\\AttendanceSystem\\Innorik.Attendance.System.Application\\Innorik.Attendance.System.Application.csproj",
         "projectName": "Innorik.Attendance.System.Application",
-        "projectPath": "C:\\Users\\jessie.asante\\source\\repos\\Innorik.Attendance.System.Application\\Innorik.Attendance.System.Application.csproj",
-        "packagesPath": "C:\\Users\\jessie.asante\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\jessie.asante\\source\\repos\\Innorik.Attendance.System.Application\\obj\\",
+        "projectPath": "C:\\Users\\ahmed.misbawu\\Desktop\\AttendanceSystem\\Innorik.Attendance.System.Application\\Innorik.Attendance.System.Application.csproj",
+        "packagesPath": "C:\\Users\\ahmed.misbawu\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\ahmed.misbawu\\Desktop\\AttendanceSystem\\Innorik.Attendance.System.Application\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\DevExpress 21.2\\Components\\Offline Packages",
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\jessie.asante\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 21.2.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\ahmed.misbawu\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\DevExpress 21.2\\Components\\System\\Components\\Packages": {},
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
@@ -35,8 +28,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\jessie.asante\\source\\repos\\Innorik.Attendance.System.Domain\\Innorik.Attendance.System.Domain.csproj": {
-                "projectPath": "C:\\Users\\jessie.asante\\source\\repos\\Innorik.Attendance.System.Domain\\Innorik.Attendance.System.Domain.csproj"
+              "C:\\Users\\ahmed.misbawu\\Desktop\\AttendanceSystem\\Innorik.Attendance.System.Domain\\Innorik.Attendance.System.Domain.csproj": {
+                "projectPath": "C:\\Users\\ahmed.misbawu\\Desktop\\AttendanceSystem\\Innorik.Attendance.System.Domain\\Innorik.Attendance.System.Domain.csproj"
               }
             }
           }
@@ -116,34 +109,27 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.103\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\jessie.asante\\source\\repos\\Innorik.Attendance.System.Domain\\Innorik.Attendance.System.Domain.csproj": {
+    "C:\\Users\\ahmed.misbawu\\Desktop\\AttendanceSystem\\Innorik.Attendance.System.Domain\\Innorik.Attendance.System.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\jessie.asante\\source\\repos\\Innorik.Attendance.System.Domain\\Innorik.Attendance.System.Domain.csproj",
+        "projectUniqueName": "C:\\Users\\ahmed.misbawu\\Desktop\\AttendanceSystem\\Innorik.Attendance.System.Domain\\Innorik.Attendance.System.Domain.csproj",
         "projectName": "Innorik.Attendance.System.Domain",
-        "projectPath": "C:\\Users\\jessie.asante\\source\\repos\\Innorik.Attendance.System.Domain\\Innorik.Attendance.System.Domain.csproj",
-        "packagesPath": "C:\\Users\\jessie.asante\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\jessie.asante\\source\\repos\\Innorik.Attendance.System.Domain\\obj\\",
+        "projectPath": "C:\\Users\\ahmed.misbawu\\Desktop\\AttendanceSystem\\Innorik.Attendance.System.Domain\\Innorik.Attendance.System.Domain.csproj",
+        "packagesPath": "C:\\Users\\ahmed.misbawu\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\ahmed.misbawu\\Desktop\\AttendanceSystem\\Innorik.Attendance.System.Domain\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\DevExpress 21.2\\Components\\Offline Packages",
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\jessie.asante\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 21.2.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\ahmed.misbawu\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\DevExpress 21.2\\Components\\System\\Components\\Packages": {},
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
@@ -228,34 +214,27 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.103\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\jessie.asante\\source\\repos\\Innorik.Attendance.System.Infrastructure\\Innorik.Attendance.System.Infrastructure.csproj": {
+    "C:\\Users\\ahmed.misbawu\\Desktop\\AttendanceSystem\\Innorik.Attendance.System.Infrastructure\\Innorik.Attendance.System.Infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\jessie.asante\\source\\repos\\Innorik.Attendance.System.Infrastructure\\Innorik.Attendance.System.Infrastructure.csproj",
+        "projectUniqueName": "C:\\Users\\ahmed.misbawu\\Desktop\\AttendanceSystem\\Innorik.Attendance.System.Infrastructure\\Innorik.Attendance.System.Infrastructure.csproj",
         "projectName": "Innorik.Attendance.System.Infrastructure",
-        "projectPath": "C:\\Users\\jessie.asante\\source\\repos\\Innorik.Attendance.System.Infrastructure\\Innorik.Attendance.System.Infrastructure.csproj",
-        "packagesPath": "C:\\Users\\jessie.asante\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\jessie.asante\\source\\repos\\Innorik.Attendance.System.Infrastructure\\obj\\",
+        "projectPath": "C:\\Users\\ahmed.misbawu\\Desktop\\AttendanceSystem\\Innorik.Attendance.System.Infrastructure\\Innorik.Attendance.System.Infrastructure.csproj",
+        "packagesPath": "C:\\Users\\ahmed.misbawu\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\ahmed.misbawu\\Desktop\\AttendanceSystem\\Innorik.Attendance.System.Infrastructure\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\DevExpress 21.2\\Components\\Offline Packages",
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\jessie.asante\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 21.2.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\ahmed.misbawu\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\DevExpress 21.2\\Components\\System\\Components\\Packages": {},
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
@@ -263,11 +242,11 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\jessie.asante\\source\\repos\\Innorik.Attendance.System.Application\\Innorik.Attendance.System.Application.csproj": {
-                "projectPath": "C:\\Users\\jessie.asante\\source\\repos\\Innorik.Attendance.System.Application\\Innorik.Attendance.System.Application.csproj"
+              "C:\\Users\\ahmed.misbawu\\Desktop\\AttendanceSystem\\Innorik.Attendance.System.Application\\Innorik.Attendance.System.Application.csproj": {
+                "projectPath": "C:\\Users\\ahmed.misbawu\\Desktop\\AttendanceSystem\\Innorik.Attendance.System.Application\\Innorik.Attendance.System.Application.csproj"
               },
-              "C:\\Users\\jessie.asante\\source\\repos\\Innorik.Attendance.System.Domain\\Innorik.Attendance.System.Domain.csproj": {
-                "projectPath": "C:\\Users\\jessie.asante\\source\\repos\\Innorik.Attendance.System.Domain\\Innorik.Attendance.System.Domain.csproj"
+              "C:\\Users\\ahmed.misbawu\\Desktop\\AttendanceSystem\\Innorik.Attendance.System.Domain\\Innorik.Attendance.System.Domain.csproj": {
+                "projectPath": "C:\\Users\\ahmed.misbawu\\Desktop\\AttendanceSystem\\Innorik.Attendance.System.Domain\\Innorik.Attendance.System.Domain.csproj"
               }
             }
           }
@@ -351,34 +330,27 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.103\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\jessie.asante\\source\\repos\\Innorik.Attendance.System\\Innorik.Attendance.System.Api.csproj": {
+    "C:\\Users\\ahmed.misbawu\\Desktop\\AttendanceSystem\\Innorik.Attendance.System\\Innorik.Attendance.System.Api.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\jessie.asante\\source\\repos\\Innorik.Attendance.System\\Innorik.Attendance.System.Api.csproj",
+        "projectUniqueName": "C:\\Users\\ahmed.misbawu\\Desktop\\AttendanceSystem\\Innorik.Attendance.System\\Innorik.Attendance.System.Api.csproj",
         "projectName": "Innorik.Attendance.System.Api",
-        "projectPath": "C:\\Users\\jessie.asante\\source\\repos\\Innorik.Attendance.System\\Innorik.Attendance.System.Api.csproj",
-        "packagesPath": "C:\\Users\\jessie.asante\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\jessie.asante\\source\\repos\\Innorik.Attendance.System\\obj\\",
+        "projectPath": "C:\\Users\\ahmed.misbawu\\Desktop\\AttendanceSystem\\Innorik.Attendance.System\\Innorik.Attendance.System.Api.csproj",
+        "packagesPath": "C:\\Users\\ahmed.misbawu\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\ahmed.misbawu\\Desktop\\AttendanceSystem\\Innorik.Attendance.System\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\DevExpress 21.2\\Components\\Offline Packages",
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\jessie.asante\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 21.2.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\ahmed.misbawu\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\DevExpress 21.2\\Components\\System\\Components\\Packages": {},
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
@@ -386,14 +358,14 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\jessie.asante\\source\\repos\\Innorik.Attendance.System.Application\\Innorik.Attendance.System.Application.csproj": {
-                "projectPath": "C:\\Users\\jessie.asante\\source\\repos\\Innorik.Attendance.System.Application\\Innorik.Attendance.System.Application.csproj"
+              "C:\\Users\\ahmed.misbawu\\Desktop\\AttendanceSystem\\Innorik.Attendance.System.Application\\Innorik.Attendance.System.Application.csproj": {
+                "projectPath": "C:\\Users\\ahmed.misbawu\\Desktop\\AttendanceSystem\\Innorik.Attendance.System.Application\\Innorik.Attendance.System.Application.csproj"
               },
-              "C:\\Users\\jessie.asante\\source\\repos\\Innorik.Attendance.System.Domain\\Innorik.Attendance.System.Domain.csproj": {
-                "projectPath": "C:\\Users\\jessie.asante\\source\\repos\\Innorik.Attendance.System.Domain\\Innorik.Attendance.System.Domain.csproj"
+              "C:\\Users\\ahmed.misbawu\\Desktop\\AttendanceSystem\\Innorik.Attendance.System.Domain\\Innorik.Attendance.System.Domain.csproj": {
+                "projectPath": "C:\\Users\\ahmed.misbawu\\Desktop\\AttendanceSystem\\Innorik.Attendance.System.Domain\\Innorik.Attendance.System.Domain.csproj"
               },
-              "C:\\Users\\jessie.asante\\source\\repos\\Innorik.Attendance.System.Infrastructure\\Innorik.Attendance.System.Infrastructure.csproj": {
-                "projectPath": "C:\\Users\\jessie.asante\\source\\repos\\Innorik.Attendance.System.Infrastructure\\Innorik.Attendance.System.Infrastructure.csproj"
+              "C:\\Users\\ahmed.misbawu\\Desktop\\AttendanceSystem\\Innorik.Attendance.System.Infrastructure\\Innorik.Attendance.System.Infrastructure.csproj": {
+                "projectPath": "C:\\Users\\ahmed.misbawu\\Desktop\\AttendanceSystem\\Innorik.Attendance.System.Infrastructure\\Innorik.Attendance.System.Infrastructure.csproj"
               }
             }
           }
@@ -480,7 +452,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.103\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
         }
       }
     }

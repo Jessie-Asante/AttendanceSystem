@@ -105,3 +105,13 @@ C:\Users\jessie.asante\source\repos\Innorik.Attendance.System\obj\Debug\net6.0\r
 C:\Users\jessie.asante\source\repos\Innorik.Attendance.System\obj\Debug\net6.0\Innorik.Attendance.System.Api.pdb
 C:\Users\jessie.asante\source\repos\Innorik.Attendance.System\obj\Debug\net6.0\Innorik.Attendance.System.Api.genruntimeconfig.cache
 C:\Users\jessie.asante\source\repos\Innorik.Attendance.System\obj\Debug\net6.0\ref\Innorik.Attendance.System.Api.dll
+C:\Users\ahmed.misbawu\Desktop\AttendanceSystem\Innorik.Attendance.System\obj\Debug\net6.0\Innorik.Attendance.System.Api.csproj.AssemblyReference.cache
+C:\Users\ahmed.misbawu\Desktop\AttendanceSystem\Innorik.Attendance.System\obj\Debug\net6.0\Innorik.Attendance.System.Api.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ahmed.misbawu\Desktop\AttendanceSystem\Innorik.Attendance.System\obj\Debug\net6.0\Innorik.Attendance.System.Api.AssemblyInfoInputs.cache
+C:\Users\ahmed.misbawu\Desktop\AttendanceSystem\Innorik.Attendance.System\obj\Debug\net6.0\Innorik.Attendance.System.Api.AssemblyInfo.cs
+C:\Users\ahmed.misbawu\Desktop\AttendanceSystem\Innorik.Attendance.System\obj\Debug\net6.0\Innorik.Attendance.System.Api.csproj.CoreCompileInputs.cache
+C:\Users\ahmed.misbawu\Desktop\AttendanceSystem\Innorik.Attendance.System\obj\Debug\net6.0\Innorik.Attendance.System.Api.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\ahmed.misbawu\Desktop\AttendanceSystem\Innorik.Attendance.System\obj\Debug\net6.0\Innorik.Attendance.System.Api.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\ahmed.misbawu\Desktop\AttendanceSystem\Innorik.Attendance.System\obj\Debug\net6.0\Innorik.Attendance.System.Api.dll
+C:\Users\ahmed.misbawu\Desktop\AttendanceSystem\Innorik.Attendance.System\obj\Debug\net6.0\refint\Innorik.Attendance.System.Api.dll
+C:\Users\ahmed.misbawu\Desktop\AttendanceSystem\Innorik.Attendance.System\obj\Debug\net6.0\Innorik.Attendance.System.Api.pdb

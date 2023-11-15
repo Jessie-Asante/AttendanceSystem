@@ -21,12 +21,15 @@ namespace Innorik.Attendance.System.Api.Controllers
 
         [HttpGet]
         [Route("Search")]
-        public async Task<IActionResult> SearchLoggingSystem([FromQuery] string? search = null)
+        public async Task<IActionResult> SearchLoggingSystem(DateTime checkIndate, DateTime checkOutDate, [FromQuery] string? search = null)
         {          
               
             var response = await _mediator.Send(new SearchAttendanceRequest
             {
-                Search = search ?? string.Empty
+                Search = search ?? string.Empty,
+                checkInDate = checkIndate,
+                checkOutDate= checkOutDate,
+
             });
             if (response == null)
                 return BadRequest(StatusCode(404, "No records found"));
@@ -53,27 +56,29 @@ namespace Innorik.Attendance.System.Api.Controllers
         [Route("CreateCheckIn")]
         public async Task<ActionResult> CheckIn([FromBody] CreateCheckInDto create)
         {
-            try
+            if (ModelState.IsValid)
             {
-                if (true)
+                try
                 {
+                 
                     var response = await _mediator.Send(new CreateCheckInRequest
                     {
                         Create = create
                     });
-                    while (response != null)
+                    if (response != null)
                     {
-                        return StatusCode(200, "Success");
+                        return Ok(response);
                     }
+                    return BadRequest("Failed to get a valid response");
 
                 }
-            }
-            catch (Exception ex)
-            {
+                catch (Exception ex)
+                {
 
-                return BadRequest(ex.Message);
+                    return BadRequest(ex.Message);
+                }
             }
-            return BadRequest(StatusCode(404, "Failed"));
+            return BadRequest("Model state is not valid");
         }
     }
 }
