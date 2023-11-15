@@ -6,5 +6,6 @@
         Task<IEnumerable<TEntity>> GetAll(FormattableString sqlQuery);
         Task<int> Add(FormattableString sqlQuery);
         Task<int> Update(FormattableString sqlQuery);
+        Task<int> Adds(FormattableString sqlQuery);
     }
 }
