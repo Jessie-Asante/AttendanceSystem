@@ -9,7 +9,7 @@ namespace Innorik.Attendance.System.Application.Command.Query.Handlers
 {
     public class isLateResponse : IRequest<ApiResponse>
     {
-        public DateTime? Date { get; set; }
+        public DateTime Date { get; set; }
     }
 
     public class isLateResponseHandler : IRequestHandler<isLateResponse, ApiResponse>
@@ -17,8 +17,9 @@ namespace Innorik.Attendance.System.Application.Command.Query.Handlers
         public Task<ApiResponse> Handle(isLateResponse request, CancellationToken cancellationToken)
         {
             var currentDate = request.Date;
-            var serverDate = DateTime.UtcNow;
-            bool isCompare = currentDate > serverDate || currentDate < serverDate;
+            var validDate = TimeSpan.Parse("08:00");
+            DateTime passedDate = DateTime.Today+validDate;
+            bool isCompare = currentDate > passedDate;
             if (isCompare == true)
             {
                 var response = new ApiResponse()
@@ -28,12 +29,14 @@ namespace Innorik.Attendance.System.Application.Command.Query.Handlers
                 };
                 return Task.FromResult(response);
             }
-            var result = new ApiResponse()
+               
+            var results = new ApiResponse()
             {
                 isStatus = true,
                 Message = $"You are on time"
             };
-            return Task.FromResult(result);
+            return Task.FromResult(results);
+
         }
 
     }
