@@ -1,0 +1,6 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/Innorik.Attendance.System/.vs/Innorik.Attendance.System/FileContentIndex
+/Innorik.Attendance.System/obj/Debug/net6.0/Innorik.Attendance.System.Api.csproj.AssemblyReference.cache
