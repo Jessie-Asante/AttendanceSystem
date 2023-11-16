@@ -21,7 +21,7 @@ namespace Innorik.Attendance.System.Application.Command.Query.Handlers
         public async Task<IEnumerable<GetAllCheckInDto>> Handle(SearchAttendanceRequest request, CancellationToken cancellationToken)
         {
 
-            FormattableString query = $"[dbo].[spcGetAllCheckIn] @search ={request.Search},@CheckIndate = {request.checkInDate}, @CheckOutdate = {request.checkOutDate}";
+            FormattableString query = $"[dbo].[spcGetAllCheckIn] @search ={request.Search}";
 
             var response = await _repository.GetAll(query);
             if (response == null)
