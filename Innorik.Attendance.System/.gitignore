@@ -1,0 +1,11 @@
+# Compiled files
+bin/
+obj/
+<<<<<<< HEAD
+
+=======
+>>>>>>> 6d3968e0d4500e17840d55e225b8db858f7a588c
+# Visual Studio files
+*.user
+*.suo
+*.sdf

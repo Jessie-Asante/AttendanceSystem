@@ -1,13 +1,9 @@
-﻿using AutoMapper;
-using Innorik.Attendance.System.Application.Command.Query.Request;
+﻿using Innorik.Attendance.System.Application.Command.Query.Request;
 using Innorik.Attendance.System.Infrastructure.Persistence;
 using MediatR;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+using AutoMapper;
 using static Innorik.Attendance.System.Application.Dtos.QueryDto;
+
 
 namespace Innorik.Attendance.System.Application.Command.Query.Handlers
 {
@@ -25,7 +21,7 @@ namespace Innorik.Attendance.System.Application.Command.Query.Handlers
         public async Task<IEnumerable<GetAllCheckInDto>> Handle(SearchAttendanceRequest request, CancellationToken cancellationToken)
         {
 
-            FormattableString query = $"[dbo].[spcGetAllCheckIn] @search ={request.Search}";
+            FormattableString query = $"[dbo].[spcGetAllCheckIn] @search ={request.Search},@CheckIndate = {request.checkInDate}, @CheckOutdate = {request.checkOutDate}";
 
             var response = await _repository.GetAll(query);
             if (response == null)

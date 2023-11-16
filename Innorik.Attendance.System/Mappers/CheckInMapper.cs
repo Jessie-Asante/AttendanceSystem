@@ -1,6 +1,6 @@
 ﻿using AutoMapper;
+using Innorik.Attendance.System.Application.Dtos;
 using Innorik.Attendance.System.Domain;
-using static Innorik.Attendance.System.Application.Dtos.CommandDto;
 
 namespace Innorik.Attendance.System.Api.Mappers
 {
